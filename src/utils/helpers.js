@@ -14,6 +14,8 @@ export const convertToArabic = (key) => {
       return "لم يتم شحنها بعد";
     case "WAITING_FOR_CUSTOMER_ACTION":
       return "التوقف بسبب قرار العميل";
+    case "RECEIVED_DELIVERY_LOCATION":
+      return "استلام موقع الشحنة";
 
     // Hub
     case "Mohandseen Hub":

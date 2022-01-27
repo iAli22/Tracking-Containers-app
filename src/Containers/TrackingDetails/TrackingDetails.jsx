@@ -12,7 +12,7 @@ function TrackingDetails({ data }) {
     <section className={style.trackingDetails}>
       <Row>
         <Col md={8}>
-          <TrackingTable data={data.TransitEvents} />
+          <TrackingTable data={data} />
         </Col>
         <Col md={4}>
           <TrackingAddress />

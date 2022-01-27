@@ -36,9 +36,11 @@ export const getCurrentColor = (status) => {
     case "DELIVERED":
       return "green";
     case "NOT_YET_SHIPPED":
+    case "DELIVERED_TO_SENDER":
       return "yellow";
     case "CANCELED":
       return "red";
+
     default:
       return "#3e465d";
   }

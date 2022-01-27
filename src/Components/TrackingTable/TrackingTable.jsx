@@ -18,7 +18,7 @@ function TrackingTable({ data }) {
           </tr>
         </thead>
         <tbody>
-          {data.map((item, idx) => (
+          {data.TransitEvents.map((item, idx) => (
             <tr key={idx}>
               <td>{convertToArabic(item.hub) || "_"}</td>
               <td>{moment(item.timestamp).format("YYYY-MM-DD")}</td>

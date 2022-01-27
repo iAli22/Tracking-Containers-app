@@ -1,0 +1,42 @@
+.search {
+  background: #fafafa;
+  text-align: start;
+  width: 350px;
+  padding: 0.5rem;
+  h2 {
+    font-size: 20px;
+  }
+  p {
+    font-size: 16px;
+    color: #5e5e5e;
+  }
+  &__form {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    input {
+      font-size: 16px;
+      border: 1px solid #e3e7ec;
+      padding: 0.5rem;
+      width: 80%;
+      border-radius: 5px;
+      outline: none;
+    }
+  }
+
+  .formIcon {
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    background-color: #ed3833;
+
+    img {
+      width: 20px;
+      height: 20px;
+    }
+  }
+}

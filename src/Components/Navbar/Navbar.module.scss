@@ -1,0 +1,34 @@
+.mainNavbar {
+  box-shadow: 1px 1px 6px #eee !important;
+  font-weight: bold;
+  font-size: 18px;
+  .navContainer {
+    a {
+      color: #444 !important;
+      padding-inline: 20px !important;
+    }
+
+    @media (max-width: 991px) {
+      a {
+        text-align: center;
+      }
+    }
+    .leftNav {
+      a {
+        &:first-child {
+          border-inline-end: 1px solid #eee !important;
+        }
+      }
+      .langBtn {
+        color: #ed3833 !important;
+        border: none;
+        background-color: transparent;
+        font-weight: bolder;
+      }
+    }
+  }
+}
+
+.dropdownList {
+  padding: 0 !important;
+}

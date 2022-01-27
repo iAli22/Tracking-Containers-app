@@ -1,0 +1,21 @@
+.errorBox {
+  background-color: red;
+  color: #fff;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 10vh;
+  width: 40vw;
+  @media (max-width: 768px) {
+    width: 80vw;
+  }
+  border: 1px solid #eeeeee;
+  border-radius: 8px;
+  margin: 2rem auto;
+  box-shadow: 1px 1px 6px #eee !important;
+
+  h4 {
+    margin: 0;
+  }
+}

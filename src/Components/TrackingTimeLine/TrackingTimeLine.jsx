@@ -8,7 +8,7 @@ import done from "../../Assets/Icons/done.svg";
 import { Image } from "react-bootstrap";
 import { convertToArabic, getCurrentColor } from "../../utils/helpers";
 import moment from "moment";
-import "moment/locale/ar-ma";
+import "moment/locale/ar";
 moment.locale("ar");
 
 function TrackingTimeLine({ data }) {
